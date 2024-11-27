@@ -4,15 +4,24 @@
     class="example-icon"
     aria-label="Example icon-button with menu icon"
   >
-    <mat-icon>menu</mat-icon>
+    <mat-icon><img src="/assets/blog.svg"></mat-icon>
   </button>
-  <span>My App</span>
+  <span>Blog App</span>
   <span class="example-spacer"></span>
 
-  <div style="display: flex; gap: 5px;">
-    <button mat-raised-button color="primary" routerLink="/create-post">Create New Post</button>
-    <button mat-raised-button color="primary" routerLink="/view-all">View All Posts</button>
-    <button mat-raised-button color="primary" routerLink="/search-by-name">Search</button>
+  <div class="all-btns" style="display: flex; gap: 5px;">
+    <button routerLink="/create-post">
+      <img src="../assets/create.svg" alt="">
+      <p>Create</p>
+    </button>
+    <button routerLink="/">
+      <img src="../assets/check.svg" alt="">
+      <span>See Posts</span>
+    </button>
+    <button routerLink="/search-by-name">
+      <img src="../assets/search.svg" alt="">
+      <span>Search</span>
+    </button>
   </div>
   
 </mat-toolbar>

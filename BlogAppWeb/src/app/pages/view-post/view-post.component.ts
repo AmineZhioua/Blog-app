@@ -34,7 +34,7 @@ export class ViewPostComponent {
   }
 
   publishComment() {
-    const postedBy = this.commentForm.get('postedBy')?.value;
+    const postedBy = this.commentForm.get('name')?.value;
     const content = this.commentForm.get('content')?.value;
     
     this.commentService.createComment(this.postId, postedBy, content).subscribe(res => {
