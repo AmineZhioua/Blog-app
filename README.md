@@ -12,3 +12,6 @@ A web application for creating and exploring blog posts. Built with <ins>Spring 
 + **Frontend:** Angular
 + **Database:** Relational database
 + **Other Tools:** REST APIs, Material Design
+
+# ⚠ IMPORTANT ⚠
+<ins>**NOTE:**</ins> This project is still under development and will be updated as I continue learning more about Spring Boot.
